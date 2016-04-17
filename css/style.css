@@ -49,6 +49,7 @@ body{
 
 h1{
 	text-align:center;
+padding-top:5rem;
 color:white;}
 button{
 	background-color:#ccc;
@@ -122,4 +123,21 @@ th,td{
 table{
 	margin-left:auto;
 	margin-right:auto;
+}
+footer {
+  background-color: #333;
+  padding: 2rem;
+  
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+
+footer ul li {
+  display: inline-block;
+  color: white;
+  margin: 0 1rem;
 }
