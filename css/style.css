@@ -130,6 +130,7 @@ textarea {
 
 .poster-wrapper h2{
 	position:absolute;
+	font-size:3rem;
 	top:50%;
 	left:50%;
 	transform:translate(-50%);
@@ -173,6 +174,7 @@ footer ul li {
   color: white;
   margin: 0 1rem;
 }
+
 .team-section{
 	text-align:center;
 	width:100%;
@@ -198,4 +200,20 @@ footer ul li {
 .team-section img:hover{
 	opacity:1;
 	padding:0px;
+}
+
+@media(max-width: 1120px){
+	.poster-wrapper h2{
+		font-size:2rem;
+	}
+
+}
+
+@media(max-width: 600px){
+	.poster-wrapper h2{
+		font-size:3rem;
+	}
+ .poster-wrapper{
+ 	width:100%;
+ }
 }
