@@ -99,6 +99,7 @@ button{
 
 .poster-wrapper h2{
 	position:absolute;
+	font-size:3rem;
 	top:50%;
 	left:50%;
 	transform:translate(-50%);
@@ -140,4 +141,22 @@ footer ul li {
   display: inline-block;
   color: white;
   margin: 0 1rem;
+}
+
+@media(max-width: 1120px){
+	.poster-wrapper h2{
+		font-size:2rem;
+	}
+
+}
+
+@media(max-width: 600px){
+	.poster-wrapper h2{
+		font-size:3rem;
+	}
+ .poster-wrapper{
+ 	width:100%;
+ }
+
+
 }
